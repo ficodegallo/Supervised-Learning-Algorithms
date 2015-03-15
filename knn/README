@@ -1,0 +1,16 @@
+Lab 1: kNN vs Logistic
+
+Take a dataset on a direct marketing campaign run by a Portuguese bank and the output y is whether or not they subscribed to a term deposit. Note: the columns are delimited by semicolons rather than commas. Just pass delimiter=';' as a keyword argument in the call pandas.read_csv(.....) when you read the data in.
+ - https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/datasets/bank-additional-full.csv
+ - Description of data: https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/datasets/bank-additional-names.txt
+
+Part 1 of Code (KNN)
+- Apply k-Nearest Neighbors on subsets of the columns and using cross validation to evaluate how the accuracy changes.
+- Use KNN on all of the columns and see how the accuracy is
+
+Part 2 (LOGISTIC)
+- Use logistic regression on the data,  bucketing some of the column data into discrete categories rather than  continuous values.
+- Try logistic regression on subsets of the columns to evaluate accruacy changes
+
+Part 3 (COMPARE)
+- Between logistic regression and kNN, which performed better in predicting which customers would sign on for a term deposit?
